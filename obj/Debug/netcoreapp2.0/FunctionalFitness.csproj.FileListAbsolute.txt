@@ -1,0 +1,12 @@
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\bin\Debug\netcoreapp2.0\FunctionalFitness.deps.json
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\bin\Debug\netcoreapp2.0\FunctionalFitness.runtimeconfig.json
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\bin\Debug\netcoreapp2.0\FunctionalFitness.runtimeconfig.dev.json
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\bin\Debug\netcoreapp2.0\FunctionalFitness.dll
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\obj\Debug\netcoreapp2.0\FunctionalFitness.csprojAssemblyReference.cache
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\obj\Debug\netcoreapp2.0\FunctionalFitness.csproj.CoreCompileInputs.cache
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\obj\Debug\netcoreapp2.0\FunctionalFitness.AssemblyInfoInputs.cache
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\obj\Debug\netcoreapp2.0\FunctionalFitness.AssemblyInfo.cs
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\bin\Debug\netcoreapp2.0\FunctionalFitness.pdb
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\obj\Debug\netcoreapp2.0\FunctionalFitness.dll
+C:\Users\Richard\source\repos\FunctionalFitness\FunctionalFitness\obj\Debug\netcoreapp2.0\FunctionalFitness.pdb
