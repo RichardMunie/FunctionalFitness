@@ -1,0 +1,36 @@
+﻿@model FunctionalFitness.Models.VideoViewModels.VideoViewModel
+
+
+<h1>Your Videos</h1>
+
+
+
+<div class="row">
+
+    <div class="col-sm-8 embed-responsive embed-responsive-16by9">
+        @if (Model.Title == null)
+        {
+            Model.Title = Model.Videos.First(c => c.ReleaseDays == 0).Title;
+        }
+        <iframe class="embed-responsive-item" src="@Model.Videos.First(c => c.Title==Model.Title).EmbedUrl()" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm-4">
+        @foreach (Video vid in @Model.Videos)
+        {
+            <img src=@vid.Thumbnail class="img-responsive" />
+            <form asp-controler="Video" asp-action="Index" method="get">
+                <input type="text" name="title" value="@vid.Title" hidden />
+                <input type=submit style="width:128px;" value="@vid.Title" />
+                @vid.ReleaseDays
+            </form>
+               
+        }
+    </div>
+</div>
+
+
+
+@if (Model.Videos.Count() == 0)
+{
+    <p>No Videos to see here!</p>
+}
