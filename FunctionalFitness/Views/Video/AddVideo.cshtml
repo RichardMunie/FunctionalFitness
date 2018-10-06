@@ -1,0 +1,42 @@
+﻿@model FunctionalFitness.Models.VideoViewModels.AddVideoViewModel
+
+<table class="table">
+    <tr>
+        <td>
+            <iframe width="560" height="315" src="@Model.EmbedUrl()" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </td>
+        <td>
+            <table class="table">
+                <tr>
+                    <td>
+                        <img src=@Model.Thumbnail style="width:128px;height:128px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>@Model.Title</td>
+                </tr>
+                <tr>
+                    <td>
+                        @Model.Url
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<form asp-controller="Video" asp-action="AddVideo" method="post">
+    <input type="hidden" asp-for="Url" value="@Model.Url" />
+    <input type="hidden" asp-for="Thumbnail" value="@Model.Thumbnail" />
+    <input type="hidden" asp-for="Author" value="@Model.Author" />
+    <input type="hidden" asp-for="Title" value="@Model.Title" />
+    <span>
+        <label asp-for="ReleaseDays"></label>
+        <input asp-for="ReleaseDays" />
+    </span>
+
+    <span>
+        <input type="submit" value="Add Video" />
+    </span>
+
+</form>
